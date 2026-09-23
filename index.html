@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>n8n Workflows · Jochua M.</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root { --fg: #000; --muted: #444; --bg: #fff; --line: #000; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: Inter, "Segoe UI", Arial, sans-serif; }
+  main { max-width: 1180px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
+  header span { font-size: 14px; letter-spacing: .04em; }
+  header a { color: var(--fg); font-size: 14px; }
+  section { margin-bottom: 56px; }
+  h1 { font-size: clamp(22px, 3vw, 30px); font-weight: 600; margin: 0 0 6px; letter-spacing: -.01em; }
+  p { margin: 0 0 18px; color: var(--muted); font-size: 15px; line-height: 1.5; max-width: 760px; }
+  figure { margin: 0; border: 1px solid var(--line); padding: 16px; }
+  figure a { display: block; }
+  img { display: block; width: 100%; height: auto; }
+</style>
+</head>
+<body>
+<main>
+  <header><span>Jochua M. · n8n workflows</span><a href="Jochua_n8n_Workflows.pdf" download>Download PDF</a></header>
+  <section>
+    <h1>AI Email Agent</h1>
+    <p>Reads every incoming email, classifies it with AI, logs leads, alerts on anything urgent, auto-replies only to routine questions.</p>
+    <figure><a href="img/email.png"><img src="img/email.png" alt="n8n canvas: AI Email Agent workflow"></a></figure>
+  </section>
+  <section>
+    <h1>Task Reminders &amp; Reply Handler</h1>
+    <p>Sends due-task reminders, matches replies to the right task, asks for missing proof, marks work complete.</p>
+    <figure><a href="img/tasks.png"><img src="img/tasks.png" alt="n8n canvas: Task Reminders and Reply Handler workflow"></a></figure>
+  </section>
+  <section>
+    <h1>Multi-Agent AI Assistant</h1>
+    <p>One assistant, by text or voice, that delegates to specialist agents for calendar, email, contacts and web search.</p>
+    <figure><a href="img/agent.png"><img src="img/agent.png" alt="n8n canvas: Multi-Agent AI Assistant workflow"></a></figure>
+  </section>
+  <section>
+    <h1>Daily AI Briefing</h1>
+    <p>Every morning at 07:30: collects eight sources, merges them and emails an AI-written executive summary.</p>
+    <figure><a href="img/brief.png"><img src="img/brief.png" alt="n8n canvas: Daily AI Briefing workflow"></a></figure>
+  </section>
+</main>
+</body>
+</html>
